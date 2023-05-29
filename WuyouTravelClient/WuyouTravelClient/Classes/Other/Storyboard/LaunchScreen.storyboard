@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84Z-qb-WVe">
+                                <rect key="frame" x="0.0" y="546" width="375" height="121"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_logo_img_158x50_" translatesAutoresizingMaskIntoConstraints="NO" id="Vm5-Hf-YHJ">
+                                        <rect key="frame" x="108" y="35.5" width="158" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Vm5-Hf-YHJ" secondAttribute="height" multiplier="79:25" id="WOL-Dr-8I7"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Vm5-Hf-YHJ" firstAttribute="centerX" secondItem="84Z-qb-WVe" secondAttribute="centerX" id="0fi-uz-do9"/>
+                                    <constraint firstItem="Vm5-Hf-YHJ" firstAttribute="centerY" secondItem="84Z-qb-WVe" secondAttribute="centerY" id="OKB-2P-gru"/>
+                                    <constraint firstItem="Vm5-Hf-YHJ" firstAttribute="height" secondItem="84Z-qb-WVe" secondAttribute="height" multiplier="50:121" id="YdA-ph-WkC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="84Z-qb-WVe" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="121:667" id="5Ze-ed-bEO"/>
+                            <constraint firstAttribute="bottom" secondItem="84Z-qb-WVe" secondAttribute="bottom" id="YuR-Wg-SbQ"/>
+                            <constraint firstItem="84Z-qb-WVe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hbg-ZU-Zi7"/>
+                            <constraint firstAttribute="trailing" secondItem="84Z-qb-WVe" secondAttribute="trailing" id="re3-eb-1b5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_logo_img_158x50_" width="158" height="50"/>
+    </resources>
+</document>
